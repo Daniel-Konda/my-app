@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.b83c296d.css","mappings":"AAAA,4BACI,SAAU,CACV,SACF,CAHF,cACI,SAAU,CACV,SACF","sources":["index.css"],"sourcesContent":["::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */\r\n    color: red;\r\n    opacity: 1; /* Firefox */\r\n  }"],"names":[],"sourceRoot":""}
