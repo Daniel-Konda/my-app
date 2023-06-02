@@ -2,10 +2,11 @@ import React from 'react'
 
 function Alert(prop) {
   return (
-    prop.alert && <div>
-        <div class={`alert alert-${prop.alert.t}`} role="alert">
+    <div className="mb-2"style={{height:'50px'}}>
+    {prop.alert && 
+        <div className={`alert alert-${prop.alert.t}`} role="alert">
             <center><b>{prop.alert.msg}</b></center>
-        </div>
+        </div>}
     </div>
   )
 }

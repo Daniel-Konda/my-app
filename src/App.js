@@ -43,6 +43,7 @@ function App() {
       <Routes>
           <Route exact path="/about" element={<About mode={mode}/>}/>
           <Route exact  path="/" element={<Textfrom title='Enter the text here' mode={mode} togglemode={togglemode} showAlert={showAlert}/>}/>
+          <Route exact  path="/my-app" element={<Textfrom title='Enter the text here' mode={mode} togglemode={togglemode} showAlert={showAlert}/>}/>
       </Routes>
       </div>
       </Router>

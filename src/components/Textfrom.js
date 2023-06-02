@@ -41,7 +41,7 @@ export default function Textfrom(prop) {
     return (
     <div className='container'>
         <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label" style={{ color:prop.mode==='dark'?'white':'black'}}>{prop.title}</label>
+            <label htmlFor="exampleFormControlTextarea1" className="form-label" style={{ color:prop.mode==='dark'?'white':'black'}}><h1>{prop.title}</h1></label>
             <textarea className="form-control"  rows="10" placeholder="Enter your text here" id='mybox'  value={text} onChange={handleonchange} style={{backgroundColor:prop.mode==='dark'?'#212529':'white', color:prop.mode==='dark'?'white':'black'}}></textarea>
         </div>
             <button className={`btn btn-${prop.mode==='light'?'primary':'info'} m-1 mx-2`} onClick={handleupcase}>Convert to Uppercase</button>
